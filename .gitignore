@@ -1,3 +1,5 @@
+#ignore all files mentioned in the .gitignore file
+
 # Prerequisites
 *.d
 
