@@ -2,11 +2,9 @@ package data;
 import java.util.Random;
 
 public class DNA{
+   private String dna;
 
-   public DNA(){
-   }
-   
-   public String generateDNA(String rootChar, int length){
+   public DNA(String rootChar, int length){
       String dna = "";
       int r = 0;
 
@@ -15,6 +13,11 @@ public class DNA{
          dna += rootChar.charAt(r);
       }
 
+      this.dna = dna;
+   }
+
+   
+   public String getDna() {
       return dna;
    }
 }
