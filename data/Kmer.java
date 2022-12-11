@@ -24,6 +24,10 @@ public class Kmer {
       return kmerSequence;
    }
 
+   public int getKmerSize(){
+      return kmerSequence.size();
+   }
+
    public void displayKmerSequence(){
       for(int i = 0; i < this.kmerSequence.size(); i++){
          System.out.println(this.kmerSequence.get(i));
